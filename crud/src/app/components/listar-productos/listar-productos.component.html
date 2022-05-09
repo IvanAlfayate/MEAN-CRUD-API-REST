@@ -4,7 +4,7 @@
       <div class="card">
         <div class="card-body text-center">
           <span>LISTADO DE PRODUCTOS</span>
-          <button class="btn btn-success float-end">Nuevo</button>
+          <button class="btn btn-success float-end" routerLink="/crear-producto">Nuevo</button>
           <table class="table table-striped mt-4">
             <thead>
               <tr>
@@ -17,24 +17,28 @@
             </thead>
             <tbody>
               <tr>
-                
+
                 <td>Coca Cola</td>
                 <td>Bebida</td>
                 <td>Buenos Aires</td>
                 <td>2</td>
-                <td></td>
+                <td>
+                  <i class="fa-solid fa-pen-to-square text-primary" ></i>
+                  <i class="fa-solid fa-trash text-danger"></i></td>
               </tr>
               <tr>
                 <td>Malboro</td>
                 <td>Cigarrillos</td>
                 <td>Barcelona</td>
                 <td>5</td>
-                <td></td>
+                <td>
+                  <i class="fa-solid fa-pen-to-square text-primary"></i>
+                  <i class="fa-solid fa-trash text-danger"></i></td>
               </tr>
-            
+
             </tbody>
           </table>
-        
+
         </div>
       </div>
     </div>
